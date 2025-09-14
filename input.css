@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brightred-400: hsl(7, 99%, 70%);
+    --color-yellow-500: hsl(51, 100%, 49%);
+    --color-green-800: hsl(167, 40%, 24%);
+    --color-Green-500: hsl(167, 34%, 41%);
+
+    --color-SkyBlue-200: #66bdf9;
+
+    
+    --font-body: Barlow;
+    --font-headings: Fraunces;
+}
