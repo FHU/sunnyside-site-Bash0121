@@ -39,30 +39,30 @@
         ><img src="images/logo.svg" alt="Sunnyside/logo"
       /></a>
 
-      <nav class="flex space-x-6 text-lg">
-        <a href="#" class="text-white hover:bg-cyan-200 px-6 py-3 rounded-full"
-          >About</a
-        >
-        <a href="#" class="text-white hover:bg-cyan-200 px-6 py-3 rounded-full"
-          >Services</a
-        >
-        <a href="#" class="text-white hover:bg-cyan-200 px-6 py-3 rounded-full"
-          >Projects</a
-        >
-        <a
-          href="#"
-          class="bg-white text-black hover:bg-cyan-200 px-6 py-3 rounded-full font-headings font-bold"
-          >CONTACT</a
-        >
+      <nav class="flex space-x-6 text-lg hidden sm:flex">
+        <a href="#" class="text-white hover:bg-cyan-200 px-6 py-3 rounded-full">About</a>
+        <a href="#" class="text-white hover:bg-cyan-200 px-6 py-3 rounded-full">Services</a>
+        <a href="#" class="text-white hover:bg-cyan-200 px-6 py-3 rounded-full">Projects</a>
+        <a href="#" class="bg-white text-black hover:bg-cyan-200 px-6 py-3 rounded-full font-headings font-bold">CONTACT</a>
       </nav>
+
+      <a href="" class="sm:hidden"><img src="images/icon-hamburger.svg" id="hamburgerButton"></a>
+
+      <div class="absolute sm:hidden hidden left-0 top-20 w-full px-10" id="mobileMenu">
+        <nav class="w-[90%] mx-auto py-10 items-center text-lg flex flex-col bg-white text-black">
+          <a href="#" class="text-black px-6 py-3 rounded-full">About</a>
+          <a href="#" class="text-black px-6 py-3 rounded-full">Services</a>
+          <a href="#" class="text-black px-6 py-3 rounded-full">Projects</a>
+          <a href="#" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-headings font-bold">CONTACT</a>
+      </div>
     </header>
 
     <section
       id="hero"
-      class="text-white bg-[url(images/desktop/image-header.jpg)] bg-cover bg-center h-150 text-center pt-40"
+      class="text-white bg-[url(images/desktop/image-header.jpg)] bg-cover bg-center h-200 text-center pt-40"
     >
       <h1 class="font-headings font-bold text-6xl">WE ARE CREATIVES</h1>
-      <img src="images/icon-arrow-down.svg" class="mx-auto py-11" />
+      <img src="images/icon-arrow-down.svg" class="mx-auto py-34" />
     </section>
 
     <div id="double_cols">
@@ -229,5 +229,7 @@
         >Frontend Mentor</a>. Coded by <a href="#">Robert Smith</a>.
     </section>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
