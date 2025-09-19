@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-    --color-brightred-400: hsl(7, 99%, 70%);
-    --color-yellow-500: hsl(51, 100%, 49%);
-    --color-green-800: hsl(167, 40%, 24%);
+    --color-Brightred-400: hsl(7, 99%, 70%);
+    --color-Yellow-500: hsl(51, 100%, 49%);
+    --color-Green-800: hsl(167, 40%, 24%);
     --color-Green-500: hsl(167, 34%, 41%);
+    --color-Blue-800: hsl(198, 62%, 26%);
 
     --color-SkyBlue-200: #66bdf9;
 
